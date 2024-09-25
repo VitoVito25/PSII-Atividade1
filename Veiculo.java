@@ -1,8 +1,8 @@
 abstract class Veiculo{
 
-    protected String marca; // Representa a marca do veículo
-    protected String modelo; // Representa o modelo do veículo
-    protected int ano; // Representa o ano de fabricação do veículo
+    private String marca; // Representa a marca do veículo
+    private String modelo; // Representa o modelo do veículo
+    private int ano; // Representa o ano de fabricação do veículo
 
     // Construtor
     public Veiculo(String marca, String modelo, int ano) {
